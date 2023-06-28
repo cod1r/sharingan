@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0)
+project(sharingan)
+add_executable(sharingan main.cpp)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+target_link_libraries(sharingan c)
+target_compile_features(sharingan PUBLIC cxx_std_20)
